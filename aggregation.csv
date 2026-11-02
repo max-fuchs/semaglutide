@@ -1,9 +1,0 @@
-sample_id,molecule_h5
-S01s1,/hpc/project/rcug/transcriptomics/RNASeqPipeline/2026_040595_2/N8773-N8774/02_DataProcessing/02_cellranger_primary_analysis/S01/per_sample_outs/S01s1/sample_molecule_info.h5
-S01s2,/hpc/project/rcug/transcriptomics/RNASeqPipeline/2026_040595_2/N8773-N8774/02_DataProcessing/02_cellranger_primary_analysis/S01/per_sample_outs/S01s2/sample_molecule_info.h5
-S01s3,/hpc/project/rcug/transcriptomics/RNASeqPipeline/2026_040595_2/N8773-N8774/02_DataProcessing/02_cellranger_primary_analysis/S01/per_sample_outs/S01s3/sample_molecule_info.h5
-S01s4,/hpc/project/rcug/transcriptomics/RNASeqPipeline/2026_040595_2/N8773-N8774/02_DataProcessing/02_cellranger_primary_analysis/S01/per_sample_outs/S01s4/sample_molecule_info.h5
-S02s1,/hpc/project/rcug/transcriptomics/RNASeqPipeline/2026_040595_2/N8773-N8774/02_DataProcessing/02_cellranger_primary_analysis/S02/per_sample_outs/S02s1/sample_molecule_info.h5
-S02s2,/hpc/project/rcug/transcriptomics/RNASeqPipeline/2026_040595_2/N8773-N8774/02_DataProcessing/02_cellranger_primary_analysis/S02/per_sample_outs/S02s2/sample_molecule_info.h5
-S02s3,/hpc/project/rcug/transcriptomics/RNASeqPipeline/2026_040595_2/N8773-N8774/02_DataProcessing/02_cellranger_primary_analysis/S02/per_sample_outs/S02s3/sample_molecule_info.h5
-S02s4,/hpc/project/rcug/transcriptomics/RNASeqPipeline/2026_040595_2/N8773-N8774/02_DataProcessing/02_cellranger_primary_analysis/S02/per_sample_outs/S02s4/sample_molecule_info.h5
