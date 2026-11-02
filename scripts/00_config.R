@@ -20,6 +20,12 @@ step_dir <- function(step) {
   d
 }
 
+save_plot <- function(p, file, width = 8, height = 6, dpi = 150, show = TRUE) {
+  ggplot2::ggsave(file, p, width = width, height = height, dpi = dpi)
+  if (show) print(p)
+  invisible(p)
+}
+
 samples <- tribble(
   ~sample_id, ~run,  ~ocm,  ~patient, ~donor,     ~treatment,
   "S01s1",    "S01", "OB1", "P1",     "H.25.50",  "Ctr",
@@ -51,7 +57,23 @@ col_sample <- setNames(
   lvl_sample
 )
 
+markers_overview <- c(
+  "TTN", "RYR2", "MYH7", "MYH6", "TNNT2", "NPPA", "NPPB",
+  "DCN", "GSN", "PDGFRA", "COL1A1",
+  "VWF", "PECAM1", "CDH5", "NPR3", "PROX1",
+  "RGS5", "ABCC9", "KCNJ8",
+  "MYH11", "ACTA2",
+  "CD163", "MRC1", "F13A1",
+  "PTPRC", "CD3E", "NKG7",
+  "KIT", "CPA3",
+  "ADIPOQ", "PLIN1",
+  "NRXN1", "NRXN3",
+  "MSLN", "MKI67"
+)
+
 rds_raw <- file.path(rds_dir, paste0(prefix, "_raw.rds"))
 rds_qc <- file.path(rds_dir, paste0(prefix, "_qc.rds"))
 rds_clustered <- file.path(rds_dir, paste0(prefix, "_clustered.rds"))
+rds_soupx <- file.path(rds_dir, paste0(prefix, "_soupx.rds"))
+rds_clean <- file.path(rds_dir, paste0(prefix, "_clean.rds"))
 rds_annotated <- file.path(rds_dir, paste0(prefix, "_annotated.rds"))
