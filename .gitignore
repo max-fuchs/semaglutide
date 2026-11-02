@@ -34,6 +34,7 @@ output/
 
 *.xlsx
 *.xls
+*.docx
 *.pdf
 *.png
 *.jpg

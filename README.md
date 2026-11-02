@@ -2,6 +2,7 @@
 output:
   word_document: default
   html_document: default
+  pdf_document: default
 ---
 # snRNA-seq of human heart slices: Semaglutide vs. control
 
