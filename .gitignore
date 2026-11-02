@@ -23,6 +23,7 @@ output/
 *.mtx.gz
 *.tsv.gz
 *.csv.gz
+*.csv
 *.fastq.gz
 *.fq.gz
 *.bam
